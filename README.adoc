@@ -1,11 +1,11 @@
-= irit-ut2j
+= Dpt-Info : FAQ & infos utiles
 
-Conseils et infos pour les chercheurs IRIT/UT2J
+Fichiers source de conseils et infos pour les étudiants et personnels du département informatique de l'IUT de Blagnac.
 
 Pour contribuer :
 
 . Cloner le dépôt
-. Améliorer/enrichier le fichier `main.asc`
+. Améliorer/enrichir le fichier `main.asc` (en ajoutant un item à la liste des FAQs)
+. Ajouter (en vous inspirant des fichiers de faqs existants) un fichier spécifique à votre question/réponse.
 . Proposer une `pull request`
 
-Ou envoyer un mail à bruel@irit.fr.
