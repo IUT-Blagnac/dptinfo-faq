@@ -1,5 +1,7 @@
 = Dpt-Info : FAQ & infos utiles
 
+Le résultat de la génération des pages associées à ce site sont ici :
+
 Fichiers source de conseils et infos pour les étudiants et personnels du département informatique de l'IUT de Blagnac.
 
 Pour contribuer :

@@ -15,7 +15,7 @@ $(OUTPUT)/%.html: %.$(EXT) $(DEP)
 	$(ASCIIDOCTOR) -b html5 -a numbered -a eleve -o $@ $<
 	cp main.html index.html
 
-deploy:
+deploy: index.html
 	cp main.html index.html
 	git commit -am "deploy updates"
 	git push
