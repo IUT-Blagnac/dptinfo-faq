@@ -11,3 +11,4 @@ Pour contribuer :
 . Ajouter (en vous inspirant des fichiers de faqs existants) un fichier spécifique à votre question/réponse.
 . Proposer une `pull request`
 
+N'hésitez pas à consulter également les https://github.com/IUT-Blagnac/dptinfo-faq/issues[issues], voire à mailto:jbruel@gmail.com[me demander d'en créer].
