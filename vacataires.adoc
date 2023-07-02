@@ -1,0 +1,24 @@
+== icon:clock-o[] Quels sont les démarches initiales d'un vacataire/ATER ?
+// JMB - 02/07/2023
+//:status: appbar.weather.sun.png
+:status: appbar.weather.overcast.png
+//:status: appbar.weather.thunder.png
+:ent: https://www.univ-tlse2.fr/accueil/formation-insertion/inscriptions-scolarite/activer-ent[ENT]
+
+Quels sont les démarches et liens utils pour les vacataires et les ATER en ce qui concerne la partie administrative ?
+
+.Réponse
+[NOTE,icon='{status}']
+====
+Le point de départ::
+Il vous faut contacter {gestionnaire}.
+Elle vous transmettra l'ensemble des informations nécessaires.
+
+Votre "Espace Numérique de Travail"::
+Votre {ent} vous servira à accéder aux outils de l'université :
++
+- Gestion de votre fiche de service
+- Accès au logiciel anti-plagiat Compilatio
++
+WARNING: Il vous faut au préalable votre adresse email `prénom.nom@univ-tlse2.fr`.
+====
