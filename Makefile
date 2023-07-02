@@ -3,7 +3,7 @@ MAIN=main
 ICONSDIR=images/icons
 IMAGESDIR=images
 ASCIIDOCTOR=asciidoctor -a icons=font -a imagesdir=$(IMAGESDIR) -a data-uri -a toc2
-EXT=adoc
+EXT=asc
 OUTPUT=.
 DEP=definitions.txt asciidoc.conf 
 #-----------------------------------------------------
