@@ -13,9 +13,9 @@ all: $(OUTPUT)/main.html
 $(OUTPUT)/%.html: %.$(EXT) $(DEP)
 	@echo '==> Compiling asciidoc files to generate HTML'
 	$(ASCIIDOCTOR) -b html5 -a numbered -a eleve -o $@ $<
+	cp main.html index.html
 
 deploy: index.html
-	cp main.html index.html
 	git commit -am "deploy updates"
 	git push
 
