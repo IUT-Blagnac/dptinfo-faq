@@ -1,0 +1,89 @@
+= Gestion de l'Emploi du Temps : flop!EDT
+:imagesdir: images
+:flop: https://flopedt.org/[flop!EDT]
+:numbered:
+:icons: font
+:gestedtemail: pablo.seban@univ-tlse2.fr
+:gestedt: mailto:{gestedtemail}[Pablo]
+
+L'outil {flop} est notre logiciel libre de génération automatique d'emploi du temps, et de gestion coopérative de celui-ci
+
+== Infos générales
+
+Les créneaux de cours durent 1h25 et commencent aux horaires suivants : 
+8h, 9h30, 11h05, 14h15, 15h45 ou 17h20. 
+
+Il est possible occasionnellement d'utiliser le créneau de 12h30 à 14h15.
+
+Le site de gestion des emplois du temps est accessible à cette adresse : https://flopedt.iut-blagnac.fr/fr/edt/INFO/. 
+
+WARNING: En théorie, vous avez un compte avec un login fait de vos initiales, et vous pouvez re-initialiser votre mot de passe en utilisant l'adresse mail avec laquelle vous recevez ce mail.
+
+== Fonctionnalités de {flop}
+
+- Visualiser son emploi du temps
+- S'abonner à son agenda électronique qui sera synchronisé automatiquement à chaque modification (l'adresse est à récupérer dans l'onglet `iCal`, si vous ne savez pas comment faire regardez https://youtu.be/Yvyg2ad7kCA[ce tuto]). 
+- S'abonner à un agenda qui annonce les re-générations à venir.
+- Télécharger une application de visualisation pour smartphone https://play.google.com/store/apps/details?id=com.flopedt.xflop&hl=fr&gl=US[ici pour Android] ou https://apps.apple.com/be/app/xflop/id1588078608[là pour la pomme].
+
+== Actions à réaliser 
+
+=== S'assurer que vos disponibilités sont à jour
+
+Pour cela, vous pouvez commencer par la semaine type (onglet Préférences) puis éventuellement des semaines particulières. 
+Voici un https://www.youtube.com/watch?v=4uxITtWVkIs[tuto (un peu ancien)] qui vous explique comment faire. 
+L'interface a changé par rapport au tuto, mais en gros ça reste la même chose. 
+Le sens interdit veut dire indisponible, les autres couleurs indiquent des préférences (plus ou moins satisfait·e si ce créneau est utilisé). 
+N'hésitez pas à être précis dans vos préférences, mais il est important que vous mettiez au moins un peu plus de disponibilités que de cours à placer (et pour les permanent·e·s, 2 fois plus...).
+
+Pour modifier la valeur, vous pouvez cliquer sur chaque bloc, ou utiliser l'outil de sélection multiple en glisser-déposer, comme ça:
+
+image:dispos.gif[]
+
+NOTE: Pensez à indiquer dans l'onglet "Préférences" le nombre d'heures de cours que vous souhaitez donner par jour (en heures, pas en créneaux : si vous souhaitez faire 2 créneaux de 1h30 par jour max, mettez 3 heures!)
+
+[TIP]
+====
+Si vous souhaitez avoir des journées les plus denses possible (pour en libérer d'autres), mettez 9 à maximum ET à idéalement
+
+image::image.png[]
+====
+
+TIP: S'il vous plaît, n'hésitez pas, à tout moment, à indiquer à {gestedt} par mail ({gestedtemail}) des préférences/contraintes que vous ne pouvez pas saisir sur l'interface (du genre "Une seule demie journée" ou "pas à la fois le lundi ET le mardi"). Contrairement aux habitudes, le fonctionnement de {flop} fait que ça n'est pas gênant pas du tout que vous soyez exigeant⋅e⋅s sur vos préférences d'emploi du temps, au contraire. Plus vous êtes précis sur vos préférences, plus l'EDT correspondra au confort collectif, plus on sera contents! 🤗
+
+[IMPORTANT]
+====
+* Si pour une semaine donnée vous avez moins de dispos que de cours à placer, il vous faut trouver une solution (affecter des cours à un autre prof, changer de semaine, annuler) ou contacter votre responsable de module. Le logiciel ne pourra pas décider pour vous quoi faire.
+* Si vous intervenez sur plusieurs départements, il suffit de saisir vos dispos une fois pour tout l'IUT!
+====
+
+=== Consultation et mise à jour
+
+L'emploi du temps du département est généré environ un mois à l'avance, semaine par semaine. 
+
+[TIP]
+====
+Vous pouvez-voir s'il sera ou non regénéré en bas à droite de l'écran (ou en vous abonnant à l'agenda électronique correspondant)
+
+image::image2.png[]
+====
+
+NOTE: Notez bien que l'emploi du temps affiché avant cette date n'est là qu'à titre indicatif, ne le notez pas sur un agenda papier tant qu'il n'est pas définitif...  
+
+=== Modifications (après génération)
+
+Une fois l'emploi du temps généré, vous pourrez le modifier en cas de besoin, sans même me contacter, en prenant soin de contacter les personnes concernées (étudiant·e·s et éventuellement collègues). 
+Là aussi, https://www.youtube.com/watch?v=XrAzkiHydnw[un tuto] (un peu ancien mais qui reste proche de l'usage actuel).
+
+NOTE: Votre emploi du temps ne sera pas modifié sans qu'il vous soit demandé si vous êtes d'accord.
+
+[TIP]
+====
+Pensez à renseigner dans "Préférences" vos préférences en matière de notification des modifications.
+
+image::image3.png[]
+====
+
+=== Contribuer!
+
+NOTE: {flop} est open source et donc ouvert à toute contribution! Si vous avez du temps et envie de participer à son développement, n'hésitez pas à contacter {gestedt} 😋
