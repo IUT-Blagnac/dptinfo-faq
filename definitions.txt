@@ -107,7 +107,7 @@
 :cabot: http://jordicabot.com/[Jordi Cabot]
 :cb: mailto:cedric.brun@obeo.fr[Cédric Brun]
 :cealist: http://www-list.cea.fr/[CEA Tech List]
-:crous: Josette.Ruscassie@crous-toulouse.fr
+:crous: olivier.formache@crous-toulouse.fr
 :dayde: Michel Daydé
 :dl: http://www.dept-info.ups-tlse.fr/index.php?option=com_content&view=article&id=294&Itemid=697&lang=fr[Master DL-SI]
 :dulas: mailto:jcdulas@phoenix-int.com[Jean-Charles Dulas]
