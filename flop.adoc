@@ -11,7 +11,7 @@ L'outil {flop} est notre logiciel libre de génération automatique d'emploi du 
 == Infos générales
 
 Les créneaux de cours durent 1h25 et commencent aux horaires suivants : 
-8h, 9h30, 11h05, 14h15, 15h45 ou 17h20. 
+8h, 9h30, 11h05, 14h15, 15h45 ou 17h15. 
 
 Il est possible occasionnellement d'utiliser le créneau de 12h30 à 14h15.
 
